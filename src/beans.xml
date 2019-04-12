@@ -1,0 +1,14 @@
+<beans>
+
+        <bean id="cat" className="org.container.entity.Cat">
+            <property name="name" value="mimi"/>
+            <property name="category" value="orange cat"/>
+        </bean>
+
+        <bean id="person" className="org.container.entity.Person">
+            <property name="name" value="lucas"/>
+            <dependency name="cat" id="cat"/>
+        </bean>
+
+
+</beans>

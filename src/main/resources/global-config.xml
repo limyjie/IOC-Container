@@ -1,0 +1,6 @@
+
+
+<config>
+        <beans-file file = "beans.xml"/>
+
+</config>
